@@ -401,15 +401,7 @@ class shuffle(object):
         print self.hash
         print len(self.hash)
         
-        
-         
-        
-
-
-      
-   
           
-        
 al=shuffle()
 al.show()
 #al.function1()
