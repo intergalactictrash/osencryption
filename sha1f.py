@@ -219,15 +219,7 @@ class shuffle(object):
     	
     def show(self):
         print "this is f: ", self.f
-    """    
-    def first20(self):
-        for self.i in words:
-            print self.i
-            print type(self.i)
-            print type(self.w[0]) 
-        i = self.i
-        return i
-    """
+   
        
     def iter1(self):
         for i in range(0, 20):
@@ -235,7 +227,7 @@ class shuffle(object):
             self.function1()
             self.blend()
             wbin = self.wbin
-        """
+    
         for i in range(21, 40):
             self.wbin = "".join(map(str, self.w[i]))
             self.function2()
@@ -256,7 +248,7 @@ class shuffle(object):
             wbin = self.wbin
         
         print "outstide for loop: ", self.wbin
-        """
+     
     def blend(self):
     	print "this is f: in blend function", self.f
     	print "This is a prior to leftrotate by 5: ", self.a
