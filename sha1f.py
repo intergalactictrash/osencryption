@@ -169,12 +169,13 @@ class shuffle(object):
     def function2(self):
         self.ff1l=[]
         self.ff2l=[]
-        #self.f=[]
+        self.f=[]
         for i in range(0, len(h0)):
             self.ff1=self.b[i] ^ self.c[i]
             self.ff1l.append(self.ff1)
             self.ff2=self.ff1l[i] ^ self.d[i]
             self.ff2l.append(self.ff2)
+	    self.f.append(ff2l)
             self.k=[0,1,1,0,1,1,1,0,1,1,0,1,1,0,0,1,1,1,1,0,1,0,1,1,1,0,1,0,0,0,0,1]
         print "2nd function output: ", self.f
         f = self.f
@@ -474,7 +475,7 @@ al.show()
 #al.function1()
 al.show()
 al.iter1()
-#al.hash()
+al.hash()
 
 
 
