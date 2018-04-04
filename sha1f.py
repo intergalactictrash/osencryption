@@ -101,8 +101,7 @@ w16 = words[len(words)-16]
 
 
 
-"""This function made me want to smash my computer in a drunken rage because there has GOT to be an easier way to do this"""
-"""I mean seriously, is python really this much of a ass-pain to work with bits, or am I missing something big?""" 
+ 
 """This function runs some boolean operators extending the words from 16 to 80 """
 
 def w80(words):
